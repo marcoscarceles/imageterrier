@@ -28,10 +28,9 @@
  */
 package org.imageterrier.dsms;
 
-import gnu.trove.TIntObjectHashMap;
-
 import java.util.Arrays;
 
+import gnu.trove.map.hash.TIntObjectHashMap;
 import org.imageterrier.basictools.ApplicationSetupUtils;
 import org.imageterrier.locfile.QLFDocument;
 import org.imageterrier.querying.parser.QLFDocumentQuery;

@@ -28,8 +28,6 @@
  */
 package org.imageterrier.locfile;
 
-import gnu.trove.TIntObjectHashMap;
-
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
@@ -44,6 +42,7 @@ import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
+import gnu.trove.map.hash.TIntObjectHashMap;
 import org.openimaj.feature.local.Location;
 import org.openimaj.feature.local.list.FileLocalFeatureList;
 import org.openimaj.feature.local.list.MemoryLocalFeatureList;

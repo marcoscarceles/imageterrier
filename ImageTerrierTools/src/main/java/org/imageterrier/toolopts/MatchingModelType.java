@@ -28,8 +28,7 @@
  */
 package org.imageterrier.toolopts;
 
-import gnu.trove.TIntIntHashMap;
-
+import gnu.trove.map.hash.TIntIntHashMap;
 import org.imageterrier.querying.parser.QLFDocumentQuery;
 import org.openimaj.feature.local.quantised.QuantisedLocalFeature;
 import org.terrier.querying.SearchRequest;

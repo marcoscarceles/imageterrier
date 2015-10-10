@@ -28,8 +28,6 @@
  */
 package org.imageterrier.indexers.hadoop;
 
-import gnu.trove.TLongArrayList;
-
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.concurrent.Callable;
@@ -38,6 +36,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+import gnu.trove.list.array.TLongArrayList;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.io.BytesWritable;
 import org.apache.hadoop.io.Text;

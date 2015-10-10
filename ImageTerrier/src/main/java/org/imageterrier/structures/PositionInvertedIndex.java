@@ -28,12 +28,11 @@
  */
 package org.imageterrier.structures;
 
-import gnu.trove.TIntIntHashMap;
-import gnu.trove.TIntObjectHashMap;
-
 import java.io.IOException;
 import java.util.Arrays;
 
+import gnu.trove.map.hash.TIntIntHashMap;
+import gnu.trove.map.hash.TIntObjectHashMap;
 import org.imageterrier.locfile.PositionSpec;
 import org.imageterrier.termpayload.PositionTermPayloadCoordinator;
 import org.openimaj.feature.local.Location;

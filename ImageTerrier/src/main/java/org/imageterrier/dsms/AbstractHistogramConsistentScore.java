@@ -28,8 +28,7 @@
  */
 package org.imageterrier.dsms;
 
-import gnu.trove.TIntIntHashMap;
-
+import gnu.trove.map.hash.TIntIntHashMap;
 import org.apache.log4j.Logger;
 import org.imageterrier.basictools.ApplicationSetupUtils;
 import org.imageterrier.locfile.PositionSpec;

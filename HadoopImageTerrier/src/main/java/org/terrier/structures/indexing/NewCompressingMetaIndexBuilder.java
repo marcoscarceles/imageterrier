@@ -28,8 +28,6 @@
  */
 package org.terrier.structures.indexing;
 
-import gnu.trove.TObjectIntHashMap;
-
 import java.io.DataInput;
 import java.io.DataInputStream;
 import java.io.DataOutput;
@@ -40,6 +38,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+import gnu.trove.map.hash.TObjectIntHashMap;
 import org.apache.hadoop.conf.Configurable;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.BlockLocation;

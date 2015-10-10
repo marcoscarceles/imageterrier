@@ -28,12 +28,11 @@
  */
 package org.imageterrier.dsms;
 
-import gnu.trove.TIntObjectHashMap;
-import gnu.trove.TObjectIntHashMap;
-
 import java.util.ArrayList;
 import java.util.List;
 
+import gnu.trove.map.hash.TIntObjectHashMap;
+import gnu.trove.map.hash.TObjectIntHashMap;
 import org.imageterrier.basictools.ApplicationSetupUtils;
 import org.imageterrier.locfile.PositionSpec;
 import org.imageterrier.locfile.QLFDocument;

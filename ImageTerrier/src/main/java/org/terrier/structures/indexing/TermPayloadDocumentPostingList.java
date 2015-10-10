@@ -28,11 +28,10 @@
  */
 package org.terrier.structures.indexing;
 
-import gnu.trove.THashMap;
-
 import java.util.ArrayList;
 import java.util.List;
 
+import gnu.trove.map.hash.THashMap;
 import org.terrier.structures.TermPayloadCoordinator;
 
 /**

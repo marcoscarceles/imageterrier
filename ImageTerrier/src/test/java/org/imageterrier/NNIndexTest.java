@@ -30,9 +30,6 @@ package org.imageterrier;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
-import gnu.trove.TIntHashSet;
-import gnu.trove.TIntIntHashMap;
-import gnu.trove.TIntObjectHashMap;
 
 import java.io.File;
 import java.io.IOException;
@@ -40,6 +37,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import gnu.trove.map.hash.TIntIntHashMap;
+import gnu.trove.map.hash.TIntObjectHashMap;
+import gnu.trove.set.hash.TIntHashSet;
 import org.imageterrier.basictools.BasicTerrierConfig;
 import org.imageterrier.dsms.NNScoreModifier;
 import org.imageterrier.indexing.NNSinglePassIndexer;

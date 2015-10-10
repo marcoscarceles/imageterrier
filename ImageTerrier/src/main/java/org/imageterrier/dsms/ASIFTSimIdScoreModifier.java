@@ -1,8 +1,7 @@
 package org.imageterrier.dsms;
 
-import gnu.trove.TIntIntHashMap;
-import gnu.trove.TObjectIntHashMap;
-
+import gnu.trove.map.hash.TIntIntHashMap;
+import gnu.trove.map.hash.TObjectIntHashMap;
 import org.apache.log4j.Logger;
 import org.imageterrier.locfile.PositionSpec;
 import org.imageterrier.locfile.QLFDocument;

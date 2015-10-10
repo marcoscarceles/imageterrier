@@ -28,13 +28,12 @@
  */
 package org.imageterrier.termpayload;
 
-import gnu.trove.TIntHashSet;
-
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 import java.util.Arrays;
 
+import gnu.trove.set.hash.TIntHashSet;
 import org.apache.hadoop.io.WritableUtils;
 import org.imageterrier.locfile.QLFDocument;
 import org.terrier.compression.BitIn;

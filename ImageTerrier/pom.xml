@@ -86,8 +86,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.terrier</groupId>
-			<artifactId>Terrier</artifactId>
-			<version>3.5.0-CDH4.7.0</version>
+			<artifactId>terrier</artifactId>
+			<version>3.5.0</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>

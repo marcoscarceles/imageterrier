@@ -28,9 +28,8 @@
  */
 package org.imageterrier.querying.parser;
 
-import gnu.trove.TObjectIntHashMap;
-import gnu.trove.TObjectIntProcedure;
-
+import gnu.trove.map.hash.TObjectIntHashMap;
+import gnu.trove.procedure.TObjectIntProcedure;
 import org.imageterrier.locfile.QLFDocument;
 import org.openimaj.feature.local.quantised.QuantisedLocalFeature;
 import org.terrier.querying.parser.MultiTermQuery;
@@ -60,7 +59,7 @@ public class QLFDocumentQuery<T extends QuantisedLocalFeature<?>> extends MultiT
 		
 		this.document = document;
 		
-		TObjectIntHashMap<String> counts = new TObjectIntHashMap<String>();		
+		TObjectIntHashMap<String> counts = new TObjectIntHashMap<String>();
 		while (!document.endOfDocument()){
 			counts.adjustOrPutValue(document.getNextTerm(), 1, 1);
 		}

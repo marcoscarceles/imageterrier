@@ -28,12 +28,11 @@
  */
 package org.terrier.structures;
 
-import gnu.trove.TIntObjectHashMap;
-
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Map.Entry;
 
+import gnu.trove.map.hash.TIntObjectHashMap;
 import org.terrier.compression.BitIn;
 import org.terrier.structures.postings.IterablePosting;
 import org.terrier.structures.postings.TermPayloadIterablePosting;
