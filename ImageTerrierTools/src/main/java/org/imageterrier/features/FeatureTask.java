@@ -52,7 +52,7 @@ public class FeatureTask implements Callable<File> {
 	}
 
 	public File getFeatureFile() {
-		return makeFeatureFilename(".fv");
+		return makeFeatureFilename("."+mode.name()+".fv");
 	}
 
 	@Override

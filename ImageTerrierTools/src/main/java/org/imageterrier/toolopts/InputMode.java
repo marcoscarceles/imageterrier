@@ -129,7 +129,7 @@ public enum InputMode implements CmdLineOptionsProvider {
 		private boolean forceRegeneration = false;
 		
 		@Option(name = "--quantiser-samples", aliases = "-s", usage = "number of quantiser samples", required=false)
-		private int quantSamples = -1;
+		private int quantSamples = Integer.MAX_VALUE;
 
 		public boolean forceRegeneration() {
 			return forceRegeneration;

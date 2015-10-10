@@ -198,6 +198,11 @@ public class BasicIndexer {
 					: FileType.BINARY_KEYPOINT;
 			cqopts.setFileType(ft);
 			final byte[][] data = ClusterQuantiser.do_getSamples(cqopts);
+			System.err.println("");
+
+			if (toolOpts.isVerbose())
+				System.err.println("Building cluster");
+
 			cluster = options.getQuantiserType().create(data);
 
 			IOUtils.writeBinary(new File(options.getQuantiserFile()), cluster);
