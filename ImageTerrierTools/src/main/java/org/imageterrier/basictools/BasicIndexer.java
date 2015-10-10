@@ -205,6 +205,8 @@ public class BasicIndexer {
 
 			cluster = options.getQuantiserType().create(data);
 
+			if (toolOpts.isVerbose())
+				System.err.println("Writing cluster into "+new File(options.getQuantiserFile()).getAbsolutePath());
 			IOUtils.writeBinary(new File(options.getQuantiserFile()), cluster);
 		}
 

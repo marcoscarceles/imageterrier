@@ -41,8 +41,9 @@ public enum InputMode implements CmdLineOptionsProvider {
 		@Option(
 				name = "--quant-file",
 				aliases = "-q",
-				usage = "path to quantiser file",
-				required = false,
+				usage = "path to quantiser file. It will be required for searching",
+				//Marking it required, as it will be needed later on by the searcher
+				required = true,
 				metaVar = "path")
 		private String quantiserFile;
 
